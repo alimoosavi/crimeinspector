@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "objective-platform-project",
+  "private_key_id": "e4ca5f6d1b5c348e6aefdf106411806664687d40",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCygnL5F23XbJ5q\nOi/62vdYWmHPmDaT/saxTqhs3FXcBOuVPirspQvdRYokTxdIye2Q/nIYUIKFzlKD\n8ZC6Csq9lLPf3edrfy8h8XQCUXMoERO//cP5uT64fhzxDRVcD3rW4qAYxl7dNmeG\nk207ANfxHecVVLZ7UiGM6fqVwrety4DPM1lJJmSaZGYujrkWZ75v89li0eRwyo0Q\n+YZRmthxKPWmVwxz8Tfgy7LcoFngtuS2vqF1zpXMamp62ylKmtKotY9E451Fqdxc\n61KWgNr+CwU7Spw2tQejrrQ8t4NAS/MV0OkiiFLF+9muR76Krfsrhbnu7ma2EIY1\nZaF0zAD/AgMBAAECggEAIf6Op5oLHHG+b0tadMK7RNOdeduqVR+5Ne3dTDHflfFH\n7dlzcjJyInbKOmTnccCmoaybDL9UQ+gJNcBMh+ljN5w4bwMCvalwT9378i8Rp4kt\nAixw5D8fTyIRH+SWczwtb/ujcmRgj277YxjzPb/I382KgrjpsW1wHzY1tsxoj0t2\n9Nzem31eHCR+CfhbDbwVih/DFgfXltr/JEgMFJ9b+AL0ylX+pa8jRXP6z/X+/e/S\n5M7HupisbUPoe56pfHo9E5XHCxyaJNB8ELdYytBmzfGVWS86kjlxkmYZ3KdvSUpN\neBIfYKnEvQl1MRb8jb5KRszD5BR0O5MsAQApSGzZDQKBgQDYJ5wIP+wuw/9O7zC7\nkXZ48j8fC6nwUqAXqn6XUVegV/FTJHrtyVgWF27y03uotaHIR7OzsO4ArTix50OB\nFt4Xcg273qK4s3tkXcvmyjR9XaKvFP/CBFqiyYcKM5Udg2oj2ba59pWgMOjE+2wz\nPwARn/kt1tA7icLSDqttEPLyywKBgQDTalsnzK/NtUay1PFbuAO3Y9BKrWkWRCme\nHwXVW4gtuNp+blD6HD/S2sL3W5hhdcU7BlNLW4o3XN3vRW2v8+jXXA1Lxr/LnBDP\nlCTrCnn4wxM8i4xcxuvUBSpA7U3C0RBlrsCRgrX2rQdNYfHBc+1VwRrgR1RS/HtU\nvxZMNoOAHQKBgQDFD7dsvfow2HcWG3KuTftYYGGziAqyEmHpsYIfqgTdJc/ZINUB\nnCI2Yb7AmpWORajs0pG+LHuPGl0ps9ETCyoG7fAfauWmxdqkse6Gxan88TSzsc1J\nsHaBGoGGh2hWs8w8SuwPtgLLPEu56g3G2pTRfKrLY6AL55g5sS4QDPew6QKBgDaM\nxMR6Lgp38awHAdfWnS7elEoQgIL8R3jDLHAm0/ZoMghZUo+WZmlzhMbqXWEYUDGw\nqiFRl1I9pg4s7eZumu+mks+wkqBovnWxFe2HoH0taHNA1pDByuvEAWkLUfsokoCK\nHKnu/iCN+MpgsU5nKR/tWY/xF7Lp7rCpNYmorzmJAoGBAKA7U0UDsnqcN3X6vqQ1\nrRPOj07FMjQU8ywr1TlbPSu+4VqvV9uuXOUYwAO2eRq24HQShlatph67AUbZwF3P\nIFru1UFGvAh+zAkJTIK/4mD9DXyzgjiFwdZwHN4ehy5zTRpK4WlWtxkGFjqkv7Te\ndClZ7taTsizZE/nDXHbJEV53\n-----END PRIVATE KEY-----\n",
+  "client_email": "service-account-for-name@objective-platform-project.iam.gserviceaccount.com",
+  "client_id": "112081305773251806039",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/service-account-for-name%40objective-platform-project.iam.gserviceaccount.com"
+}
