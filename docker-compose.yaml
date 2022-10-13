@@ -11,6 +11,13 @@ services:
       POSTGRES_PASSWORD: "1"
     ports:
       - 6432:5432
+  redis:
+    image: redis:6.0.3-alpine
+    volumes:
+      - redisdata:/data
+    command: redis-server --bind 0.0.0.0
+    ports:
+      - 6379:6379
   crime-inspector:
     build:
       context: "."
@@ -32,3 +39,4 @@ services:
 
 volumes:
   pgdata:
+  redisdata:

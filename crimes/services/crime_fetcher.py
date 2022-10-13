@@ -28,9 +28,10 @@ class CrimesFetcherJob:
         self.total_crimes_count = list(enumerate(self.client.query(QUERY).result()))[0][1][0]
 
     def _run_worker(self, worker_idx: int):
-        for batch_idx in range((worker_idx * (self.total_crimes_count // self.THREAD_COUNT)) // self.BATCH_SIZE,
-                               ((worker_idx + 1) * (self.total_crimes_count // self.THREAD_COUNT)) // self.BATCH_SIZE
-                               ):
+        batch_idx_start = (worker_idx * (self.total_crimes_count // self.THREAD_COUNT)) // self.BATCH_SIZE
+        batch_idx_end = ((worker_idx + 1) * (self.total_crimes_count // self.THREAD_COUNT)) // self.BATCH_SIZE
+
+        for batch_idx in range(batch_idx_start, batch_idx_end):
             batch_result = self._fetch_batch(batch_idx)
             crimes = []
             crime_infos = [item

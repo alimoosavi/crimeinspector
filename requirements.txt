@@ -9,3 +9,5 @@ django-cors-headers==3.13.0
 django-filter==22.1
 djangorestframework==3.13.1
 tzdata==2022.4
+redis==3.5.3
+hiredis==2.0.0

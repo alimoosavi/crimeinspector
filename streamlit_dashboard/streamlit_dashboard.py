@@ -6,8 +6,6 @@ import streamlit as st
 from crime_primary_types import PRIMARY_TYPES
 
 CRIME_INSPECTOR_BASE_URL = os.getenv('CRIME_INSPECTOR_BASE_URL')
-# BASE_URL = 'http://127.0.0.1:8000'
-# AUTHENTICATION_STATIC_TOKEN = 'N4rN_*!GwQUM$ggg7yxLBPru7)WBYlR9'
 
 
 def fetch_crimes(primary_type: str,
@@ -24,8 +22,7 @@ def fetch_crimes(primary_type: str,
 
         results = response.json()['results']
         return [[item['latitude'], item['longitude']]
-                for item in results
-                ]
+                for item in results]
     except Exception:
         return []
 

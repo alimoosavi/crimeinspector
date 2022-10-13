@@ -12,7 +12,6 @@ COPY . /var/www/app
 WORKDIR /var/www/app
 
 RUN python3 -m pip install -r requirements.txt
-#RUN python3 manage.py migrate
 EXPOSE 8000
 RUN chmod +x start-server.sh
 CMD ./start-server.sh
