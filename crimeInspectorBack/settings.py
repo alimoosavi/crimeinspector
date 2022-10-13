@@ -32,6 +32,28 @@ REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
     'PAGE_SIZE': 5000
 }
+# Logging
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'console': {
+            'class': 'logging.StreamHandler',
+        },
+    },
+    'loggers': {
+        'main': {
+            'level': 'DEBUG',
+            'handlers': ['console'],
+
+        }
+    },
+    # 'root': {
+    #     'handlers': ['console'],
+    #     'level': 'WARNING',
+    # },
+}
 
 # Application definition
 

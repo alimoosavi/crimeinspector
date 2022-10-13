@@ -4,6 +4,9 @@ from django.conf import settings
 
 
 class StaticTokenAuthentication(BaseAuthentication):
+    """
+        authorize requests by checking static token in headers
+    """
     def authenticate(self, request):
         token = request.META.get("HTTP_TOKEN", None)
         if not token or token != settings.AUTHENTICATION_STATIC_TOKEN:
